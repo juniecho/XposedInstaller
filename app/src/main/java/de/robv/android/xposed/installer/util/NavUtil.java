@@ -34,7 +34,7 @@ public final class NavUtil {
 
         CustomTabsIntent.Builder customTabsIntent = new CustomTabsIntent.Builder();
         customTabsIntent.setShowTitle(true);
-        customTabsIntent.setToolbarColor(XposedApp.getColor(activity));
+        customTabsIntent.setToolbarColor(ThemeUtil.getColor(activity));
         customTabsIntent.build().launchUrl(activity, uri);
     }
 

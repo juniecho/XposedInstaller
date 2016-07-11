@@ -27,9 +27,9 @@ import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.ThemeUtil;
 import de.robv.android.xposed.installer.util.UpdateService;
 
-import static de.robv.android.xposed.installer.XposedApp.darkenColor;
-
 public class SettingsActivity extends XposedBaseActivity implements ColorChooserDialog.ColorCallback {
+
+    private static Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,10 +37,10 @@ public class SettingsActivity extends XposedBaseActivity implements ColorChooser
         ThemeUtil.setTheme(this);
         setContentView(R.layout.activity_container);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
 
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
@@ -53,7 +53,7 @@ public class SettingsActivity extends XposedBaseActivity implements ColorChooser
             ab.setDisplayHomeAsUpEnabled(true);
         }
 
-        setFloating(toolbar, 0);
+        setFloating(mToolbar, 0);
 
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
@@ -98,8 +98,8 @@ public class SettingsActivity extends XposedBaseActivity implements ColorChooser
                 if (Build.VERSION.SDK_INT >= 21) {
 
                     ActivityManager.TaskDescription tDesc = new ActivityManager.TaskDescription(getString(R.string.app_name),
-                            XposedApp.drawableToBitmap(mContext.getDrawable(drawable)),
-                            XposedApp.getColor(mContext));
+                            ThemeUtil.drawableToBitmap(mContext.getDrawable(drawable)),
+                            ThemeUtil.getColor(mContext));
                     getActivity().setTaskDescription(tDesc);
                 }
 
@@ -174,8 +174,8 @@ public class SettingsActivity extends XposedBaseActivity implements ColorChooser
 
             getPreferenceScreen().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
 
-            if (Build.VERSION.SDK_INT >= 21)
-                getActivity().getWindow().setStatusBarColor(darkenColor(XposedApp.getColor(getActivity()), 0.85f));
+            ThemeUtil.tintStatusBar(getActivity(), getView());
+            ThemeUtil.colorizeToolbar(getActivity(), mToolbar);
         }
 
         @Override
@@ -213,7 +213,7 @@ public class SettingsActivity extends XposedBaseActivity implements ColorChooser
                 new ColorChooserDialog.Builder(act, preference.getTitleRes())
                         .backButton(R.string.back)
                         .doneButton(android.R.string.ok)
-                        .preselect(XposedApp.getColor(act)).show();
+                        .preselect(ThemeUtil.getColor(act)).show();
 
             return true;
         }

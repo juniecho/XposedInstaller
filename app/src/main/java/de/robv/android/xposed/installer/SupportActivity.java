@@ -1,6 +1,5 @@
 package de.robv.android.xposed.installer;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
@@ -13,19 +12,20 @@ import android.widget.TextView;
 import de.robv.android.xposed.installer.util.NavUtil;
 import de.robv.android.xposed.installer.util.ThemeUtil;
 
-import static de.robv.android.xposed.installer.XposedApp.darkenColor;
-
 public class SupportActivity extends XposedBaseActivity {
+
+    private static Toolbar mToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ThemeUtil.setTheme(this);
         setContentView(R.layout.activity_container);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
 
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
@@ -38,7 +38,7 @@ public class SupportActivity extends XposedBaseActivity {
             ab.setDisplayHomeAsUpEnabled(true);
         }
 
-        setFloating(toolbar, 0);
+        setFloating(mToolbar, 0);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().add(R.id.container, new SupportFragment()).commit();
@@ -54,8 +54,9 @@ public class SupportActivity extends XposedBaseActivity {
         @Override
         public void onResume() {
             super.onResume();
-            if (Build.VERSION.SDK_INT >= 21)
-                getActivity().getWindow().setStatusBarColor(darkenColor(XposedApp.getColor(getActivity()), 0.85f));
+
+            ThemeUtil.tintStatusBar(getActivity(), getView());
+            ThemeUtil.colorizeToolbar(getActivity(), mToolbar);
         }
 
         @Override

@@ -67,7 +67,7 @@ public final class NotificationUtil {
             builder.setPriority(2);
 
         if (prefs.getBoolean("colored_notification", false))
-            builder.setColor(XposedApp.getColor(sContext));
+            builder.setColor(ThemeUtil.getColor(sContext));
 
         Intent iActivateAndReboot = new Intent(sContext, RebootReceiver.class);
         iActivateAndReboot.putExtra(RebootReceiver.EXTRA_ACTIVATE_MODULE, packageName);
@@ -114,7 +114,7 @@ public final class NotificationUtil {
             builder.setPriority(2);
 
         if (prefs.getBoolean("colored_notification", false))
-            builder.setColor(XposedApp.getColor(sContext));
+            builder.setColor(ThemeUtil.getColor(sContext));
 
         Intent iSoftReboot = new Intent(sContext, RebootReceiver.class);
         iSoftReboot.putExtra(RebootReceiver.EXTRA_SOFT_REBOOT, true);
@@ -154,7 +154,7 @@ public final class NotificationUtil {
             builder.setPriority(2);
 
         if (prefs.getBoolean("colored_notification", false))
-            builder.setColor(XposedApp.getColor(sContext));
+            builder.setColor(ThemeUtil.getColor(sContext));
 
         NotificationCompat.BigTextStyle notiStyle = new NotificationCompat.BigTextStyle();
         notiStyle.setBigContentTitle(title);

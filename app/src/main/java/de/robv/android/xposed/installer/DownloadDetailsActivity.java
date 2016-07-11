@@ -32,7 +32,6 @@ import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.RepoLoader.RepoListener;
 import de.robv.android.xposed.installer.util.ThemeUtil;
 
-import static de.robv.android.xposed.installer.XposedApp.darkenColor;
 
 public class DownloadDetailsActivity extends XposedBaseActivity
         implements RepoListener, ModuleListener {
@@ -42,6 +41,7 @@ public class DownloadDetailsActivity extends XposedBaseActivity
     public static final int DOWNLOAD_SETTINGS = 2;
     private static RepoLoader sRepoLoader = RepoLoader.getInstance();
     private static ModuleUtil sModuleUtil = ModuleUtil.getInstance();
+    private static Toolbar mToolbar;
     private ViewPager mPager;
     private String mPackageName;
     private Module mModule;
@@ -64,10 +64,10 @@ public class DownloadDetailsActivity extends XposedBaseActivity
         if (mModule != null) {
             setContentView(R.layout.activity_download_details);
 
-            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-            setSupportActionBar(toolbar);
+            mToolbar = (Toolbar) findViewById(R.id.toolbar);
+            setSupportActionBar(mToolbar);
 
-            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     finish();
@@ -81,7 +81,7 @@ public class DownloadDetailsActivity extends XposedBaseActivity
                 ab.setDisplayHomeAsUpEnabled(true);
             }
 
-            setFloating(toolbar, 0);
+            setFloating(mToolbar, 0);
 
             setupTabs();
 
@@ -112,9 +112,10 @@ public class DownloadDetailsActivity extends XposedBaseActivity
     protected void onResume() {
         super.onResume();
 
-        if (Build.VERSION.SDK_INT >= 21)
-            getWindow().setStatusBarColor(darkenColor(XposedApp.getColor(this), 0.85f));
-
+        ThemeUtil.tintStatusBar(this, findViewById(R.id.container));
+        if (mToolbar != null) {
+            ThemeUtil.colorizeToolbar(this, mToolbar);
+        }
     }
 
     private void setupTabs() {
@@ -122,7 +123,7 @@ public class DownloadDetailsActivity extends XposedBaseActivity
         mPager.setAdapter(new SwipeFragmentPagerAdapter(getSupportFragmentManager()));
         TabLayout mTabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         mTabLayout.setupWithViewPager(mPager);
-        mTabLayout.setBackgroundColor(XposedApp.getColor(this));
+        mTabLayout.setBackgroundColor(ThemeUtil.getColor(this));
     }
 
     private String getModulePackageName() {

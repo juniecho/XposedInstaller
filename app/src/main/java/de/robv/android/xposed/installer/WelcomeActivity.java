@@ -23,8 +23,6 @@ import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.RepoLoader.RepoListener;
 import de.robv.android.xposed.installer.util.ThemeUtil;
 
-import static de.robv.android.xposed.installer.XposedApp.darkenColor;
-
 public class WelcomeActivity extends XposedBaseActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         ModuleListener, RepoListener {
@@ -36,6 +34,7 @@ public class WelcomeActivity extends XposedBaseActivity
     private int mPrevSelectedId;
     private NavigationView mNavigationView;
     private int mSelectedId;
+    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +43,7 @@ public class WelcomeActivity extends XposedBaseActivity
         setContentView(R.layout.activity_welcome);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
         mNavigationView = (NavigationView) findViewById(R.id.navigation_view);
@@ -97,8 +96,9 @@ public class WelcomeActivity extends XposedBaseActivity
     protected void onResume() {
         super.onResume();
 
-        mDrawerLayout.setStatusBarBackgroundColor(darkenColor(XposedApp.getColor(this), 0.85f));
-
+        mDrawerLayout.setStatusBarBackgroundColor(ThemeUtil.darkenColor(ThemeUtil.getColor(this), 0.85f));
+        ThemeUtil.applyStatusBarLight(ThemeUtil.darkenColor(ThemeUtil.getColor(this), 0.85f), mDrawerLayout);
+        ThemeUtil.colorizeToolbar(this, mToolbar);
     }
 
     public void switchFragment(int itemId) {
