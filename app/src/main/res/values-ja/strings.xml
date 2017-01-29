@@ -239,7 +239,6 @@
     <string name="download_view_size">サイズ: %s KB</string>
     <string name="share">共有方法</string>
     <string name="back">戻る</string>
-    <string name="loadingError">Xposedフレームワークのzipの読み込み中にエラーが発生しました</string>
     <string name="info">情報</string>
     <string name="infoInstaller">
         名前: %1$s

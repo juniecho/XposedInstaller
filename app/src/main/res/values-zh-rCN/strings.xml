@@ -223,7 +223,6 @@ SDK：%2$d \n
     <string name="installed_lollipop">Xposed 框架 %s 版已激活。</string>
     <string name="installed_lollipop_inactive">Xposed 框架 %s 版已安装，但未激活。请检查日志的详细信息。</string>
     <string name="installed_no_lollipop">Xposed 框架已安装。</string>
-    <string name="loadingError">载入 Xposed zip 框架错误</string>
     <string name="md_back_label">返回</string>
     <string name="md_cancel_label">取消</string>
     <string name="md_choose_label">选择</string>

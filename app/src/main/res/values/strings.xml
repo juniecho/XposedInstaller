@@ -239,7 +239,7 @@
     <string name="download_view_size">Size: %s KB</string>
     <string name="share">Share with…</string>
     <string name="back">Back</string>
-    <string name="loadingError">Error getting list of installers/uninstallers.\nCannot access Internet, or server bug</string>
+    <string name="loadingError">GomdoLight has its own mechanism for installing and uninstalling the Xposed Framework. Create an empty file named \'install.xposed.framework\' or \'uninstall.xposed.framework\' in /sdcard/GomdoLight and reboot your device to install/uninstall the Xposed Framework automatically.</string>
     <string name="info">Info</string>
     <string name="infoInstaller">
         Name: %1$s

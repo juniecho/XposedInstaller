@@ -226,7 +226,6 @@
     <string name="installed_lollipop">A versão %s da \"Xposed framework\" está ativa.</string>
     <string name="installed_lollipop_inactive">A versão %s da \"Xposed framework\" está instalada mas não está ativa. Por favor verifique os registos para mais detalhes.</string>
     <string name="installed_no_lollipop">A \"Xposed framework\" está instalada.</string>
-    <string name="loadingError">Erro a carregar os ZIP da \"Xposed framework\"</string>
     <string name="md_back_label">Voltar</string>
     <string name="md_cancel_label">Cancelar</string>
     <string name="md_choose_label">Escolher</string>

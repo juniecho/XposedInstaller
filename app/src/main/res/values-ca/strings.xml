@@ -239,7 +239,6 @@
     <string name="download_view_size">Mida: %s KB</string>
     <string name="share">Comparteix amb…</string>
     <string name="back">Enrere</string>
-    <string name="loadingError">Error en carregar els marcs del Zip Xposed</string>
     <string name="info">Informació</string>
     <string name="infoInstaller">
         Nom: %1$s
@@ -308,5 +307,4 @@
     <string name="loading">S\'està carregant…</string>
     <string name="chrome_custom_tabs">Pestanyes personalitzades del Chrome</string>
     <string name="chrome_custom_tabs_summ">Obre els enllaços al navegador intern</string>
-
 </resources>

@@ -239,7 +239,6 @@
     <string name="download_view_size">ขนาด: %s KB</string>
     <string name="share">แบ่งปันด้วย…</string>
     <string name="back">ย้อนกลับ</string>
-    <string name="loadingError">ข้อผิดพลาดการโหลดเฟรมเวิร์ค Xposed</string>
     <string name="info">ข้อมูล</string>
     <string name="infoInstaller">
         ชื่อ: %1$s

@@ -239,7 +239,6 @@
     <string name="download_view_size">Veľkosť: %s KB</string>
     <string name="share">Zdieľať…</string>
     <string name="back">Späť</string>
-    <string name="loadingError">Chyba pri načítaní Xposed Zip súboru</string>
     <string name="info">Informácie</string>
     <string name="infoInstaller">
         Názov: %1$s

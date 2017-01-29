@@ -239,7 +239,6 @@
     <string name="download_view_size">Размер: %s КБ</string>
     <string name="share">Поделиться</string>
     <string name="back">Назад</string>
-    <string name="loadingError">Ошибка загрузки Zip Xposed Frameworks</string>
     <string name="info">Информация</string>
     <string name="infoInstaller">
         Имя: %1$s

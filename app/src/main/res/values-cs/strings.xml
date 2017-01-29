@@ -239,7 +239,6 @@
     <string name="download_view_size">Velikost: %s KB</string>
     <string name="share">Sdílet…</string>
     <string name="back">Zpět</string>
-    <string name="loadingError">Chyba při získávání seznamu souborů zip s Xposed frameworkem</string>
     <string name="info">Info</string>
     <string name="infoInstaller">
         Název: %1$s
@@ -277,5 +276,4 @@
     <string name="installed_no_lollipop">Xposed framework je nainstalován.</string>
     <string name="not_installed_no_lollipop">Xposed framework není nainstalován.</string>
     <string name="notify_module_update">Povolit oznámení o aktualizaci modulu</string>
-
 </resources>

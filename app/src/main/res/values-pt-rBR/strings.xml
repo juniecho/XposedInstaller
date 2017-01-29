@@ -239,7 +239,6 @@
     <string name="download_view_size">Tamanho: %s KB</string>
     <string name="share">Compartilhar com…</string>
     <string name="back">Voltar</string>
-    <string name="loadingError">Erro ao carregar zips do Xposed Framework</string>
     <string name="info">Info</string>
     <string name="infoInstaller">
         Nome: %1$s
