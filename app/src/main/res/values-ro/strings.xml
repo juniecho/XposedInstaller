@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Dezvoltatori:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> si <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Va rugam <b>nu</b> ne contactati in mod direct pentru suport, folositi link-ul de mai jos.</string>
     <string name="about_translator_label">Traducator:</string>
     <string name="translator">razorsbk</string>

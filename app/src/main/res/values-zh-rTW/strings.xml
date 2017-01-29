@@ -187,7 +187,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">主要開發者</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> 和 <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a>\n<a href="http://forum.xda-developers.com/member.php?u=4756862">-BioHaZard-</a> 和\n <a href="http://forum.xda-developers.com/member.php?u=5345056">dvdandroid</a> 修復錯誤及 Material Design 化</string>
     <string name="about_developers_warning">>請<b>不</b>要直接聯繫我們取得説明，使用下面的連結。</string>
     <string name="about_translator_label">翻譯：</string>
     <string name="translator">Cye3s、 taammanhoi、 TaiXiong</string>

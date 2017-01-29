@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Fő fejlesztők:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> és <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Kérlek <b>ne</b> lépj közvetlen kapcsolatba velünk támogatásért, használd az alábbi linket.</string>
     <string name="about_translator_label">Fordító:</string>
     <string name="translator"><a href="http://forum.xda-developers.com/member.php?u=4719724">Adam77Root</a></string>

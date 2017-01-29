@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Головні розробники:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> та <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Будь-ласка, для підтримки <b>НЕ</b> контактуйте з нами напряму, а користуйтеся посиланням, що розташовано нижче.</string>
     <string name="about_translator_label">Перекладач:</string>
     <string name="translator">Сергій Горіченко (sgg/sggua)</string>

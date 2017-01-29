@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Ana Geliştiriciler:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> and <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Lütfen bizimle <b>direkt</b> olarak iletişim yerine aşağıdaki linki kullanın.</string>
     <string name="about_translator_label">Çevirmen:</string>
     <string name="translator">TheNorth</string>

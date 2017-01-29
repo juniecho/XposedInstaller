@@ -78,7 +78,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Desarrolladores principales:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> e <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Por favor, póñase en contacto connosco para obter soporte, use o seguinte enlace.</string>
     <string name="about_translator_label">Traductor:</string>
     <string name="translator">David_Vaz</string>

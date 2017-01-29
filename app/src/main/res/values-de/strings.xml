@@ -187,7 +187,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Hauptentwickler</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> und <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Bitte kontaktiere uns <b>nicht</b> direkt für Support. Verwende stattdessen die folgenden Links.</string>
     <string name="about_translator_label">Übersetzer:</string>
     <string name="translator">Nils Wasser (BobQuentok), rovo89, Philipp Ihling (ximmox)</string>

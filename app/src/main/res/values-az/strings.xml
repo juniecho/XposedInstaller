@@ -91,7 +91,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Əsas geliştiricilər:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> və <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Zəhmət olmasa yardım üçün bizimlə birbaşa əlaqə saxlamayın, aşağıdaki linkdən istifadə edin.</string>
     <string name="about_translator_label">Azeri Translator:</string>
     <string name="translator">hero355</string>

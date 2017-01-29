@@ -83,7 +83,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">مطوري الرئيسية:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> و <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">الرجاء القيام <b>لا</b> اتصل بنا مباشرة للدعم، واستخدام الارتباط الموجود أدناه.</string>
     <string name="about_translator_label">ترجمات:</string>
     <string name="translator">aljohanei</string>

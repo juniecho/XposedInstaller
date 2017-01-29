@@ -83,7 +83,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Pengembang utama:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> and <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Tolong <b>jangan</b> menghubungi kami secara langsung, gunakan link dibawah.</string>
     <string name="about_translator_label">Penerjemah:</string>
     <string name="translator">AngSanley</string>

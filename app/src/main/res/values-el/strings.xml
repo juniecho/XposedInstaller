@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Κύριοι developers:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> and <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Παρακαλούμε <b>μην</b> επικοινωνείτε με εμάς κατευθείαν για υποστήριξη, χρησιμοποιήστε τον σύνδεσμο παρακάτω.</string>
     <string name="about_translator_label">Μεταφραστής:</string>
     <string name="translator">sirodoht</string>

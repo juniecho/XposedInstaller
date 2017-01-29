@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> and <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a>"
-"<a href="http://forum.xda-developers.com/member.php?u=4756862">-BioHaZard-</a> and <a href="http://forum.xda-developers.com/member.php?u=5345056">dvdandroid</a> for bug fixes and Material Design</string>
     <string name="about_developers_label">대표 개발자 :</string>
     <string name="about_developers_warning">개발자에게 문의하거나 문제점을 알리고 싶으시다면 사적인 연락 수단 대신 아래의 문의처를 사용하십시오.</string>
     <string name="about_libraries_label">사용된 라이브러리 :</string>

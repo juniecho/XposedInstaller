@@ -103,20 +103,7 @@ public class AboutActivity extends XposedBaseActivity {
             SharedPreferences prefs = getContext().getSharedPreferences(packageName + "_preferences", MODE_PRIVATE);
 
             final String changes = prefs.getString("changelog_" + XposedApp.THIS_APK_VERSION, null);
-
-            if (changes == null) {
-                changelogView.setVisibility(View.GONE);
-            } else {
-                changelogView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        new MaterialDialog.Builder(getContext())
-                                .title(R.string.changes)
-                                .content(Html.fromHtml(changes))
-                                .positiveText(android.R.string.ok).show();
-                    }
-                });
-            }
+            changelogView.setVisibility(View.GONE);
 
             try {
                 String version = getActivity().getPackageManager().getPackageInfo(packageName, 0).versionName;
@@ -145,9 +132,12 @@ public class AboutActivity extends XposedBaseActivity {
             v.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    MaterialDialog dialog = new MaterialDialog.Builder(getContext()).title(title).content(content).positiveText(android.R.string.ok).show();
-
-                    ((TextView) dialog.findViewById(android.R.id.content)).setMovementMethod(LinkMovementMethod.getInstance());
+                    return;
+                    /* MaterialDialog dialog = new MaterialDialog.Builder(getContext()).title(title).content(content).positiveText(android.R.string.ok).show();
+                    TextView dialogTextView = (TextView) dialog.findViewById(android.R.id.content);
+                    if (dialogTextView != null) {
+                        dialogTextView.setMovementMethod(LinkMovementMethod.getInstance());
+                    } */
                 }
             });
         }

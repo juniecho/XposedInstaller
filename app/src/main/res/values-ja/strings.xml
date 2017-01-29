@@ -187,7 +187,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">メイン開発者</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a>、<a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a>、<a href="http://forum.xda-developers.com/member.php?u=5345056">dvdandroid</a>（バグ修正、マテリアルデザイン）</string>
     <string name="about_developers_warning">サポートは直接<b>連絡せずに</b>以下のリンクを使用してください。</string>
     <string name="about_translator_label">翻訳</string>
     <string name="translator"><a href="https://androplus.org/">WedyDQ10</a>、<a href="https://plus.google.com/117105706198436527101">BLACK</a></string>

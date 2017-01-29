@@ -91,7 +91,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Huvudsakliga utvecklare:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> och <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Vänligen kontakta oss <b>inte</b> direkt för support, använd länken nedan.</string>
     <string name="about_translator_label">Översättare:</string>
     <string name="translator"><a href="http://forum.xda-developers.com/member.php?u=2364290">Fredro (Fredrik Lundberg)</a></string>

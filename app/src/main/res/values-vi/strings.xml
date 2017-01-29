@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Các tác giả chính:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> và <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Vui lòng <b>không</b> liên hệ trực tiếp khi cần giúp đỡ mà sử dụng link dưới đây.</string>
     <string name="about_translator_label">Người dịch:</string>
     <string name="translator">Alienz</string>

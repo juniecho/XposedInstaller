@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">מפתחים ראשיים:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> ו <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">בבקשה <b>לא</b> לפנות אלינו ישירות בשביל תמיכה, השתמשו בלינק מתחת.</string>
     <string name="about_translator_label">מתרגם:</string>
     <string name="translator">DubelBoom</string>

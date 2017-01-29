@@ -163,7 +163,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Разработчици:</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> и <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
     <string name="about_developers_warning">Моля <b>не</b> се свързвайте с нас директно, използвайте долния линк.</string>
     <string name="about_translator_label">Преводач:</string>
     <string name="translator">mamutcho</string>

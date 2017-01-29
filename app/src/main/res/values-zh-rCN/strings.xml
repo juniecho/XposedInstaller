@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> 与 <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a>"
-"<a href="http://forum.xda-developers.com/member.php?u=4756862">-BioHaZard-</a> 与 <a href="http://forum.xda-developers.com/member.php?u=5345056">dvdandroid</a> 修复问题并适配质感设计</string>
     <string name="about_developers_label">主要开发者</string>
     <string name="about_developers_warning">请<b>不要</b>直接联系我们获取帮助，使用下面的链接。</string>
     <string name="about_libraries_label">使用的库文件</string>

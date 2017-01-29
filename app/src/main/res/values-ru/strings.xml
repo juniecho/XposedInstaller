@@ -187,7 +187,6 @@
 
     <!-- About tab -->
     <string name="about_developers_label">Главные разработчики</string>
-    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> и <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a>\n<a href="http://forum.xda-developers.com/member.php?u=4756862">-BioHaZard-</a> и <a href="http://forum.xda-developers.com/member.php?u=5345056">dvdandroid</a> Для исправления багов и Material Дизайна</string>
     <string name="about_developers_warning">Пожалуйста, <b>не</b> пишите нам для решения вопросов напрямую, используйте ссылку ниже.</string>
     <string name="about_translator_label">Переводчик:</string>
     <string name="translator">Alexey711</string>
