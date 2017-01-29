@@ -250,15 +250,6 @@
     <string name="selectFile">Seleziona il file scaricato</string>
     <string name="warningArchitecture">HAI SCELTO L\' ARCHITTETTURA GIUSTA DELLO ZIP?\nUno zip sbagliato può danneggiare il tuo telefono!</string>
     <string name="xposedZipNotFound">File zip non trovato, probabilmemente una nuova versione è stata rilasciata.</string>
-    <string name="helpChoose">
-        Come scegliere il file zip corretto?\n
-
-        xposed-v*-sdk%%SDK%%-%%ARCH%%\n\n
-
-        Dove:\n
-        %%SDK%% è la tua versione Android SDK \n\n
-        %%ARCH%% è l\'architettura della CPU del tuo telefono
-    </string>
     <string name="newVersion">Una nuova versione di Xposed Installer è disponibile! Aggiorna!</string>
     <string name="update">Aggiorna</string>
     <string name="choose_icon">Scegli un\' icona</string>

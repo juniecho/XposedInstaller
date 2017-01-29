@@ -201,7 +201,8 @@
     <string name="export_modules">활성화된 모듈 목록 내보내기</string>
     <string name="file_is_empty">파일이 비어 있습니다</string>
     <string name="help">도움말</string>
-    <string name="helpChoose">GomdoLight는 이 앱의 도움을 거치지 않고, 자체적으로 내장하고 있는 Xposed 프레임워크를 루트 여부에 상관 없이 설치할 수 있습니다. 내부 저장소에서 GomdoLight 폴더를 찾아서 여기에 install.xposed.framework 라는 이름의 파일을 생성하고 디바이스를 다시 시작하십시오.</string>
+    <string name="helpChoose">"GomdoLight는 이 앱의 도움을 거치지 않고, 루트 여부에 상관 없이 Xposed 프레임워크를 설치하거나 제거할 수 있습니다. 언제든 \'install.xposed.framework\' 또는 \'uninstall.xposed.framework\' 라는 이름의 파일을
+/sdcard/GomdoLight 폴더에 만들고 디바이스를 다시 시작하십시오. 그러면 GomdoLight가 자동으로 Xposed 프레임워크를 설치 또는 제거합니다."</string>
     <string name="ignore_updates">업데이트 무시</string>
     <string name="ignore_updates_summ">특정 모듈의 업데이트를 무시합니다.</string>
     <string name="import_">가져오기…</string>
@@ -225,7 +226,7 @@ Date: %3$s"</string>
     <string name="installed_lollipop_inactive">Xposed 프레임워크 %s 이(가) 설치되어 있으나 활성화되어 있지 않습니다. 로그를 확인하십시오.</string>
     <string name="installed_no_lollipop">Xposed 프레임워크가 설치되었습니다.</string>
     <string name="loading">로드 중…</string>
-    <string name="loadingError">GomdoLight는 이 앱과 무관하게 Xposed 프레임워크를 관리합니다. /sdcard/GomdoLight에 \'install.xposed.framework\' 또는 \'uninstall.xposed.framework\' 라는 이름의 파일을 생성하시고 디바이스를 다시 시작하면 자동으로 Xposed 프레임워크를 설치 또는 제거할 수 있습니다.</string>
+    <string name="loadingError">GomdoLight는 Xposed 프레임워크를 자체적으로 관리합니다. 상단의 \'도움말\' 버튼을 눌러, GomdoLight에서 Xposed 프레임워크를 설치하거나 제거하는 방법을 자세히 확인하십시오.</string>
     <string name="md_back_label">이전</string>
     <string name="md_cancel_label">취소</string>
     <string name="md_choose_label">선택</string>

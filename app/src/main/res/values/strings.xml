@@ -239,7 +239,7 @@
     <string name="download_view_size">Size: %s KB</string>
     <string name="share">Share with…</string>
     <string name="back">Back</string>
-    <string name="loadingError">GomdoLight has its own mechanism for installing and uninstalling the Xposed Framework. Create an empty file named \'install.xposed.framework\' or \'uninstall.xposed.framework\' in /sdcard/GomdoLight and reboot your device to install/uninstall the Xposed Framework automatically.</string>
+    <string name="loadingError">Press the Help button above for detailed information on installing the Xposed Framework easily on GomdoLight.</string>
     <string name="info">Info</string>
     <string name="infoInstaller">
         Name: %1$s
@@ -260,15 +260,11 @@
     <string name="xposedZipNotFound">Zip not found, probably a new version released.</string>
     <string name="warningArchitecture">HAVE YOU CHOSEN RIGHT XPOSED ZIP ARCHITECTURE?\nWrong zip can damage your phone!</string>
     <string name="help">Help</string>
-    <string name="helpChoose">
-        How to choose correct zip file?\n
-
-        xposed-v*-sdk%%SDK%%-%%ARCH%%\n\n
-
-        Where:\n
-        %%SDK%% is your Android SDK version\n\n
-        %%ARCH%% is your device CPU architecture
-    </string>
+    <string name="helpChoose">"GomdoLight has its own mechanism for installing and uninstalling the Xposed Framework.
+First, create an empty file named \'install.xposed.framework\' or \'uninstall.xposed.framework\',
+in /sdcard/GomdoLight.
+Then, reboot your device.
+GomdoLight will install/uninstall the Xposed Framework automatically."</string>
     <string name="newVersion">New version of Xposed Installer is available! Update it!</string>
     <string name="update">Update</string>
     <string name="choose_icon">Choose an icon</string>

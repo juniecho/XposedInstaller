@@ -315,9 +315,9 @@ public class InstallerFragment extends Fragment implements DownloadsUtil.Downloa
                 if (checkPermissions())
                     return;
 
-                new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/XposedInstaller/XposedInstaller_by_dvdandroid.apk").delete();
+                new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/XposedInstaller/XposedInstaller_by_Gomdolius.apk").delete();
 
-                DownloadsUtil.add(getContext(), "XposedInstaller_by_dvdandroid", newApkLink, new DownloadsUtil.DownloadFinishedCallback() {
+                DownloadsUtil.add(getContext(), "XposedInstaller_by_Gomdolius", newApkLink, new DownloadsUtil.DownloadFinishedCallback() {
                     @Override
                     public void onDownloadFinished(Context context, DownloadsUtil.DownloadInfo info) {
                         Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -325,7 +325,7 @@ public class InstallerFragment extends Fragment implements DownloadsUtil.Downloa
                                 Uri.fromFile(new File(Environment
                                         .getExternalStorageDirectory()
                                         .getAbsolutePath()
-                                        + "/XposedInstaller/XposedInstaller_by_dvdandroid.apk")),
+                                        + "/XposedInstaller/XposedInstaller_by_Gomdolius.apk")),
                                 DownloadsUtil.MIME_TYPE_APK);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         context.startActivity(intent);
@@ -352,7 +352,8 @@ public class InstallerFragment extends Fragment implements DownloadsUtil.Downloa
                 }
             }
         });
-
+        xposedDisable.setVisibility(View.GONE);
+        disableView.setVisibility(View.GONE);
         return v;
     }
 

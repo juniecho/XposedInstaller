@@ -50,10 +50,10 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
     @SuppressLint("SdCardPath")
     public static final String BASE_DIR = "/data/data/de.ursa.android.gomxpf.installer/";
     public static final String ENABLED_MODULES_LIST_FILE = XposedApp.BASE_DIR + "conf/enabled_modules.list";
-    private static final File XPOSED_PROP_FILE_SYSTEMLESS = new File("/gx/xposed/system/xposed.prop");
+    private static final File XPOSED_PROP_FILE_SYSTEMLESS = new File("/gx/xposed/system/gomxpf.prop");
     private static final File XPOSED_PROP_FILE = new File("/system/gomxpf.prop");
     public static int WRITE_EXTERNAL_PERMISSION = 69;
-    public static String THIS_APK_VERSION = "1466672400000";
+    public static String THIS_APK_VERSION = "9466672400000";
     public static int[] iconsValues = new int[]{R.mipmap.ic_launcher, R.mipmap.ic_launcher_hjmodi, R.mipmap.ic_launcher_rovo, R.mipmap.ic_launcher_rovo_old, R.mipmap.ic_launcher_staol};
     private static Pattern PATTERN_APP_PROCESS_VERSION = Pattern.compile(".*with Xposed support \\(version (.+)\\).*");
     private static XposedApp mInstance = null;
