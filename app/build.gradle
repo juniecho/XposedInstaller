@@ -1,17 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     lintOptions {
         abortOnError false
     }
 
     defaultConfig {
-        applicationId "de.robv.android.xposed.installer"
+        applicationId "de.ursa.android.gomxpf.installer"
         minSdkVersion 16
-        targetSdkVersion 23
+        targetSdkVersion 25
         versionCode 37
         versionName "3.0 alpha4 by dvdandroid - 23/06/16"
         project.ext.set("archivesBaseName", "XposedInstaller_by_dvdandroid");
@@ -29,13 +29,15 @@ repositories {
 }
 
 dependencies {
-    compile 'com.android.support:cardview-v7:23.4.0'
-    compile 'com.android.support:recyclerview-v7:23.4.0'
-    compile 'com.android.support:design:23.4.0'
-    compile 'com.android.support:customtabs:23.4.0'
-    compile 'com.afollestad.material-dialogs:commons:0.8.5.8'
+    compile 'com.android.support:cardview-v7:25.1.0'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:customtabs:25.1.0'
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.afollestad.material-dialogs:commons:0.9.2.3'
+    compile 'com.afollestad.material-dialogs:core:0.9.2.3'
     compile 'com.github.machinarius:preferencefragment:0.1.1'
     compile 'se.emilsjolander:stickylistheaders:2.7.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
 }
