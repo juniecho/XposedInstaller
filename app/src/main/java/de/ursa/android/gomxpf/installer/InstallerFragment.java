@@ -684,11 +684,11 @@ public class InstallerFragment extends Fragment implements DownloadsUtil.Downloa
                 return false;
             }
 
-            messages.add(getString(R.string.file_copying, "XposedBridge.jar"));
-            File jarFile = AssetUtil.writeAssetToFile("XposedBridge.jar", new File(JAR_PATH), 00644);
+            messages.add(getString(R.string.file_copying, "UrsaXpBridge.jar"));
+            File jarFile = AssetUtil.writeAssetToFile("UrsaXpBridge.jar", new File(JAR_PATH), 00644);
             if (jarFile == null) {
                 messages.add("");
-                messages.add(getString(R.string.file_extract_failed, "XposedBridge.jar"));
+                messages.add(getString(R.string.file_extract_failed, "UrsaXpBridge.jar"));
                 return false;
             }
 

@@ -17,7 +17,7 @@ import de.ursa.android.gomxpf.installer.XposedApp;
 
 public class AssetUtil {
     public static final File BUSYBOX_FILE = new File(XposedApp.getInstance().getCacheDir(), "busybox-xposed");
-    public static final String STATIC_BUSYBOX_PACKAGE = "de.robv.android.xposed.installer.staticbusybox";
+    public static final String STATIC_BUSYBOX_PACKAGE = "de.ursa.android.gomxpf.installer.staticbusybox";
     private static final int STATIC_BUSYBOX_REQUIRED_VERSION = 1;
     private static PackageInfo mStaticBusyboxInfo = null;
 
