@@ -352,8 +352,8 @@ public class InstallerFragment extends Fragment implements DownloadsUtil.Downloa
                 }
             }
         });
-        xposedDisable.setVisibility(View.GONE);
-        disableView.setVisibility(View.GONE);
+        // xposedDisable.setVisibility(View.GONE);
+        // disableView.setVisibility(View.GONE);
         return v;
     }
 

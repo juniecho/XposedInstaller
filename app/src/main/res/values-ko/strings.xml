@@ -100,7 +100,7 @@
     <string name="sdcard_not_writable">내부 저장소에 데이터를 쓸 수 없거나 내부 저장소를 찾을 수 없습니다.</string>
     <string name="tabLogs">내역</string>
     <string name="tabLogsDescription">Xposed 프레임워크가 만들어내는 내역(log)를 보고, 이를 저장하거나 전송할 수 있습니다.</string>
-    <string name="xposed_not_active">현재 최신 버전의 Xposed 프레임워크가 활성화되지 않고 있습니다. 프레임워크 설치 후 시스템을 재시작하세요.</string>
+    <string name="xposed_not_active">활성 상태의 Xposed 프레임워크를 찾을 수 없습니다. Xposed 프레임워크를 설치하거나, (이미 설치되어 있다면) 프레임워크 탭에서 활성화하십시오.</string>
     <string name="activate_and_reboot">활성화하고 다시 시작</string>
     <string name="auto_flash_note">\"확인\"을 누르면 %s 의 설치를 자동으로 시작합니다.</string>
     <string name="dont_show_again">다시 보이지 않기</string>
